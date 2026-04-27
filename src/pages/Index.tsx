@@ -15,7 +15,7 @@ import {
   Volume2,
   Wrench,
 } from "lucide-react";
-import heroImage from "@/assets/hudson-payne-security-hero.jpg";
+
 
 const services = [
   {
@@ -64,15 +64,8 @@ const counties = ["Lynchburg, VA", "Bedford County", "Campbell County", "Amherst
 const Index = () => {
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <section className="relative min-h-[92vh] overflow-hidden bg-trust-deep text-hero-foreground signal-sweep">
-        <img
-          src={heroImage}
-          alt="Technician servicing integrated security, fire alarm, surveillance, and telecom systems"
-          className="absolute inset-0 h-full w-full object-cover"
-          width={1600}
-          height={1000}
-        />
-        <div className="absolute inset-0 bg-hero-shade" />
+      <section className="relative min-h-[92vh] overflow-hidden bg-gradient-to-r from-trust-deep via-trust-blue to-trust-blue/20 text-hero-foreground signal-sweep">
+        <div className="absolute inset-0 bg-hero-shade pointer-events-none" />
         <nav className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
           <a href="#top" className="group flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-signal focus:ring-offset-2 focus:ring-offset-trust-deep">
             <span className="flex h-11 w-11 items-center justify-center rounded-md border border-hero-foreground/25 bg-hero-foreground/10 backdrop-blur-sm transition-transform group-hover:-translate-y-0.5">

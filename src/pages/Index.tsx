@@ -222,41 +222,7 @@ const Index = () => {
             </div>
           </div>
 
-          <form className="rounded-md border border-border bg-card p-6 shadow-lift sm:p-8">
-            <div className="grid gap-5 sm:grid-cols-2">
-              <label className="space-y-2 text-sm font-bold">
-                Name
-                <input className="mt-2 w-full rounded-md border border-input bg-background px-4 py-3 font-normal outline-none transition focus:ring-2 focus:ring-ring" name="name" type="text" maxLength={100} required />
-              </label>
-              <label className="space-y-2 text-sm font-bold">
-                Phone
-                <input className="mt-2 w-full rounded-md border border-input bg-background px-4 py-3 font-normal outline-none transition focus:ring-2 focus:ring-ring" name="phone" type="tel" maxLength={30} required />
-              </label>
-              <label className="space-y-2 text-sm font-bold sm:col-span-2">
-                Email
-                <input className="mt-2 w-full rounded-md border border-input bg-background px-4 py-3 font-normal outline-none transition focus:ring-2 focus:ring-ring" name="email" type="email" maxLength={255} />
-              </label>
-              <label className="space-y-2 text-sm font-bold sm:col-span-2">
-                Service needed
-                <select className="mt-2 w-full rounded-md border border-input bg-background px-4 py-3 font-normal outline-none transition focus:ring-2 focus:ring-ring" name="service" defaultValue="">
-                  <option value="" disabled>Select a service</option>
-                  <option>Security systems</option>
-                  <option>Surveillance systems</option>
-                  <option>Fire alarm systems</option>
-                  <option>Telecommunication systems</option>
-                  <option>Sound systems</option>
-                  <option>Maintenance or repairs</option>
-                </select>
-              </label>
-              <label className="space-y-2 text-sm font-bold sm:col-span-2">
-                Message
-                <textarea className="mt-2 min-h-32 w-full rounded-md border border-input bg-background px-4 py-3 font-normal outline-none transition focus:ring-2 focus:ring-ring" name="message" maxLength={1000} />
-              </label>
-            </div>
-            <button type="submit" className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground transition hover:-translate-y-0.5 hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-ring sm:w-auto">
-              <Headphones className="h-5 w-5" aria-hidden="true" /> Send Request
-            </button>
-          </form>
+          {/* Contact form fields removed as requested */}
         </div>
       </section>
 

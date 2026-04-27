@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/react-query-devtools/",
+  base: "/hudson-payne-electric-corp/",
   server: {
     host: "::",
     port: 8080,
